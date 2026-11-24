@@ -1,0 +1,16 @@
+{
+  "name": "tilda-news-digest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ежедневный инвест-дайджест: RSS → JSON → блок T123 на Tilda",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "agent": "node scripts/news-agent.mjs",
+    "health": "node scripts/health-check.mjs",
+    "test": "node scripts/test-parser.mjs",
+    "summary": "node scripts/report-summary.mjs"
+  }
+}
