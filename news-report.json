@@ -1,0 +1,298 @@
+{
+  "updated": "2026-11-24T10:25:58.689Z",
+  "ok": true,
+  "degraded": false,
+  "sources": [
+    {
+      "id": "rbc",
+      "name": "РБК",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 731,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "vedomosti",
+      "name": "Ведомости",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 612,
+      "count": 80,
+      "error": null
+    },
+    {
+      "id": "ved_fin",
+      "name": "Ведомости Финансы",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 606,
+      "count": 80,
+      "error": null
+    },
+    {
+      "id": "kommersant",
+      "name": "Коммерсантъ",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 668,
+      "count": 80,
+      "error": null
+    },
+    {
+      "id": "komm_money",
+      "name": "Коммерсантъ Деньги",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 624,
+      "count": 38,
+      "error": null
+    },
+    {
+      "id": "tass",
+      "name": "ТАСС",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 282,
+      "count": 80,
+      "error": null
+    },
+    {
+      "id": "interfax",
+      "name": "Интерфакс",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 595,
+      "count": 25,
+      "error": null
+    },
+    {
+      "id": "bfm",
+      "name": "BFM",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 416,
+      "count": 50,
+      "error": null
+    },
+    {
+      "id": "finam",
+      "name": "Финам",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 300,
+      "count": 80,
+      "error": null
+    },
+    {
+      "id": "finmarket",
+      "name": "Финмаркет",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 495,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "banki",
+      "name": "Banki.ru",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 518,
+      "count": 25,
+      "error": null
+    },
+    {
+      "id": "cbr",
+      "name": "Банк России",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 555,
+      "count": 80,
+      "error": null
+    },
+    {
+      "id": "smartlab",
+      "name": "Smart-Lab",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 352,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "rg",
+      "name": "Российская газета",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 572,
+      "count": 80,
+      "error": null
+    },
+    {
+      "id": "ria",
+      "name": "РИА Новости",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 522,
+      "count": 80,
+      "error": null
+    },
+    {
+      "id": "lenta",
+      "name": "Лента.ру",
+      "region": "ru",
+      "ok": true,
+      "status": 200,
+      "ms": 475,
+      "count": 80,
+      "error": null
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "region": "world",
+      "ok": true,
+      "status": 200,
+      "ms": 834,
+      "count": 11,
+      "error": null
+    },
+    {
+      "id": "ft_markets",
+      "name": "FT Markets",
+      "region": "world",
+      "ok": true,
+      "status": 200,
+      "ms": 668,
+      "count": 25,
+      "error": null
+    },
+    {
+      "id": "ft_companies",
+      "name": "FT Companies",
+      "region": "world",
+      "ok": true,
+      "status": 200,
+      "ms": 761,
+      "count": 25,
+      "error": null
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "region": "world",
+      "ok": true,
+      "status": 200,
+      "ms": 877,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "region": "world",
+      "ok": true,
+      "status": 200,
+      "ms": 619,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "wsj",
+      "name": "WSJ Markets",
+      "region": "world",
+      "ok": true,
+      "status": 200,
+      "ms": 500,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "marketwatch",
+      "name": "MarketWatch",
+      "region": "world",
+      "ok": true,
+      "status": 200,
+      "ms": 902,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "investing",
+      "name": "Investing.com",
+      "region": "world",
+      "ok": true,
+      "status": 200,
+      "ms": 506,
+      "count": 10,
+      "error": null
+    },
+    {
+      "id": "seeking",
+      "name": "Seeking Alpha",
+      "region": "world",
+      "ok": true,
+      "status": 200,
+      "ms": 653,
+      "count": 30,
+      "error": null
+    },
+    {
+      "id": "economist",
+      "name": "The Economist",
+      "region": "world",
+      "ok": true,
+      "status": 200,
+      "ms": 660,
+      "count": 80,
+      "error": null
+    },
+    {
+      "id": "fed",
+      "name": "Federal Reserve",
+      "region": "world",
+      "ok": true,
+      "status": 200,
+      "ms": 500,
+      "count": 20,
+      "error": null
+    },
+    {
+      "id": "aljazeera",
+      "name": "Al Jazeera",
+      "region": "world",
+      "ok": true,
+      "status": 200,
+      "ms": 534,
+      "count": 25,
+      "error": null
+    }
+  ],
+  "stats": {
+    "sources": 28,
+    "sourcesOk": 28,
+    "raw": 1234,
+    "relevant": 433,
+    "written": 60,
+    "byRegion": {
+      "ru": 42,
+      "world": 18
+    }
+  }
+}

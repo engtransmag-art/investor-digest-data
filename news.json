@@ -1,0 +1,1209 @@
+{
+  "updated": "2026-11-24T10:25:58.689Z",
+  "period": {
+    "from": "24.11",
+    "to": "24.11"
+  },
+  "news": [
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ИНФРАСТРУКТУРА",
+        "en": "INFRASTRUCTURE"
+      },
+      "source": {
+        "ru": "Российская газета",
+        "en": "Российская газета"
+      },
+      "title": {
+        "ru": "Студент из Мексики разработал самовосстанавливающиеся дороги",
+        "en": "Студент из Мексики разработал самовосстанавливающиеся дороги"
+      },
+      "url": "https://rg.ru/2026/11/24/student-iz-meksiki-razrabotal-samovosstanavlivaiushchiesia-dorogi.html"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "АНАЛИТИКА",
+        "en": "ANALYTICS"
+      },
+      "source": {
+        "ru": "Российская газета",
+        "en": "Российская газета"
+      },
+      "title": {
+        "ru": "Трехметровые волны ожидают в Сочи",
+        "en": "Трехметровые волны ожидают в Сочи"
+      },
+      "url": "https://rg.ru/2026/11/24/reg-ufo/trehmetrovye-volny-ozhidaiut-na-sochi.html"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ИНФРАСТРУКТУРА",
+        "en": "INFRASTRUCTURE"
+      },
+      "source": {
+        "ru": "ТАСС",
+        "en": "ТАСС"
+      },
+      "title": {
+        "ru": "В Черниговской области повреждена ж/д инфраструктура",
+        "en": "В Черниговской области повреждена ж/д инфраструктура"
+      },
+      "url": "https://tass.ru/proisshestviya/28349283"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ФИНАНСЫ",
+        "en": "FINANCE"
+      },
+      "source": {
+        "ru": "Ведомости",
+        "en": "Ведомости"
+      },
+      "title": {
+        "ru": "Прибыль «Т-банка» за 10 месяцев составила 160,5 млрд рублей",
+        "en": "Прибыль «Т-банка» за 10 месяцев составила 160,5 млрд рублей"
+      },
+      "url": "https://www.vedomosti.ru/investments/news/2026/11/24/1414705-pribil-t-banka"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ГАЗ",
+        "en": "GAS"
+      },
+      "source": {
+        "ru": "Лента.ру",
+        "en": "Лента.ру"
+      },
+      "title": {
+        "ru": "Риски Европы остаться зимой без газа оценили",
+        "en": "Риски Европы остаться зимой без газа оценили"
+      },
+      "url": "https://lenta.ru/news/2026/11/24/riski-evropy-ostatsya-zimoy-bez-gaza-otsenili/"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "РЫНКИ",
+        "en": "MARKETS"
+      },
+      "source": {
+        "ru": "CNBC",
+        "en": "CNBC"
+      },
+      "title": {
+        "ru": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years",
+        "en": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years"
+      },
+      "url": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ДИВИДЕНДЫ",
+        "en": "DIVIDENDS"
+      },
+      "source": {
+        "ru": "BFM",
+        "en": "BFM"
+      },
+      "title": {
+        "ru": "Долговые выплаты Украины МВФ в 2027 году составят более $2 млрд",
+        "en": "Долговые выплаты Украины МВФ в 2027 году составят более $2 млрд"
+      },
+      "url": "https://www.bfm.ru/news/624834"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "РЫНКИ",
+        "en": "MARKETS"
+      },
+      "source": {
+        "ru": "Банк России",
+        "en": "Банк России"
+      },
+      "title": {
+        "ru": "Решения Банка России в отношении участников финансового рынка",
+        "en": "Решения Банка России в отношении участников финансового рынка"
+      },
+      "url": "https://www.cbr.ru/rbr/rbr_fr/"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ФИНАНСЫ",
+        "en": "FINANCE"
+      },
+      "source": {
+        "ru": "ТАСС",
+        "en": "ТАСС"
+      },
+      "title": {
+        "ru": "В октябре россиянам выдали максимальное за два года число кредитов наличными",
+        "en": "В октябре россиянам выдали максимальное за два года число кредитов наличными"
+      },
+      "url": "https://tass.ru/ekonomika/28349207"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ГАЗ",
+        "en": "GAS"
+      },
+      "source": {
+        "ru": "Коммерсантъ",
+        "en": "Коммерсантъ"
+      },
+      "title": {
+        "ru": "Норвежская Equinor подписала соглашение о поставках газа в Германию до 2044 года",
+        "en": "Норвежская Equinor подписала соглашение о поставках газа в Германию до 2044 года"
+      },
+      "url": "https://www.kommersant.ru/doc/9128963"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "КОРПОРАЦИИ",
+        "en": "CORPORATIONS"
+      },
+      "source": {
+        "ru": "Российская газета",
+        "en": "Российская газета"
+      },
+      "title": {
+        "ru": "Возвращение Хуанга на пост главы Nvidia стало \"зеркалом\" американских принципов",
+        "en": "Возвращение Хуанга на пост главы Nvidia стало \"зеркалом\" американских принципов"
+      },
+      "url": "https://rg.ru/2026/11/24/vozvrashchenie-huanga-na-post-glavy-nvidia-stalo-zerkalom-amerikanskih-principov.html"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ЭНЕРГЕТИКА",
+        "en": "ENERGY"
+      },
+      "source": {
+        "ru": "Интерфакс",
+        "en": "Интерфакс"
+      },
+      "title": {
+        "ru": "Представители Киргизии и России обсудили сотрудничество в энергетике",
+        "en": "Представители Киргизии и России обсудили сотрудничество в энергетике"
+      },
+      "url": "https://www.interfax.ru/business/1130994"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "АНАЛИТИКА",
+        "en": "ANALYTICS"
+      },
+      "source": {
+        "ru": "Seeking Alpha",
+        "en": "Seeking Alpha"
+      },
+      "title": {
+        "ru": "Target's Comeback Is On Track (Rating Upgrade)",
+        "en": "Target's Comeback Is On Track (Rating Upgrade)"
+      },
+      "url": "https://seekingalpha.com/article/4971354-targets-comeback-is-on-track-rating-upgrade?source=feed_all_articles"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ГОСПОДДЕРЖКА",
+        "en": "GOV SUPPORT"
+      },
+      "source": {
+        "ru": "ТАСС",
+        "en": "ТАСС"
+      },
+      "title": {
+        "ru": "Пасечник предложил продлить земельные и инвестиционные льготы в ЛНР",
+        "en": "Пасечник предложил продлить земельные и инвестиционные льготы в ЛНР"
+      },
+      "url": "https://tass.ru/ekonomika/28349127"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "РЫНКИ",
+        "en": "MARKETS"
+      },
+      "source": {
+        "ru": "Финам",
+        "en": "Финам"
+      },
+      "title": {
+        "ru": "Индекс МосБиржи балансирует ниже 2400 без свежих геополитических новостей",
+        "en": "Индекс МосБиржи балансирует ниже 2400 без свежих геополитических новостей"
+      },
+      "url": "https://www.finam.ru/publications/item/indeks-mosbirzhi-balansiruet-nizhe-2400-bez-svezhikh-geopoliticheskikh-novostey-20261124-1310/?utm_source=rss&utm_medium=new_compaigns&news_to_finamb=new_compaigns"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ФИНАНСЫ",
+        "en": "FINANCE"
+      },
+      "source": {
+        "ru": "Финам",
+        "en": "Финам"
+      },
+      "title": {
+        "ru": "Чистая прибыль \"Т-Банка\" за январь-октябрь выросла почти в 2,5 раза",
+        "en": "Чистая прибыль \"Т-Банка\" за январь-октябрь выросла почти в 2,5 раза"
+      },
+      "url": "https://www.finam.ru/publications/item/chistaya-pribyl-t-banka-za-yanvar-oktyabr-vyrosla-pochti-v-25-raza-20261124-1303/?utm_source=rss&utm_medium=new_compaigns&news_to_finamb=new_compaigns"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "РЫНКИ",
+        "en": "MARKETS"
+      },
+      "source": {
+        "ru": "Financial Times",
+        "en": "Financial Times"
+      },
+      "title": {
+        "ru": "US tech stocks set to slip after blistering rally",
+        "en": "US tech stocks set to slip after blistering rally"
+      },
+      "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ФИНАНСЫ",
+        "en": "FINANCE"
+      },
+      "source": {
+        "ru": "Российская газета",
+        "en": "Российская газета"
+      },
+      "title": {
+        "ru": "Жители Чечни начали жаловаться на недостоверные сведения в кредитных историях",
+        "en": "Жители Чечни начали жаловаться на недостоверные сведения в кредитных историях"
+      },
+      "url": "https://rg.ru/2026/11/24/reg-skfo/zhiteli-chechni-nachali-zhalovatsia-na-nedostovernye-svedeniia-v-kreditnyh-istoriiah.html"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "КОРПОРАЦИИ",
+        "en": "CORPORATIONS"
+      },
+      "source": {
+        "ru": "РБК",
+        "en": "РБК"
+      },
+      "title": {
+        "ru": "Акции азиатских партнеров Nvidia подскочили на фоне возвращения Хуанга",
+        "en": "Акции азиатских партнеров Nvidia подскочили на фоне возвращения Хуанга"
+      },
+      "url": "https://www.rbc.ru/quote/24/11/2026/6b05433677ad8f24ce93bf13"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ГОСУПРАВЛЕНИЕ",
+        "en": "GOV"
+      },
+      "source": {
+        "ru": "РБК",
+        "en": "РБК"
+      },
+      "title": {
+        "ru": "В Минфине сообщили о завершении адаптации бюджета к шокам",
+        "en": "В Минфине сообщили о завершении адаптации бюджета к шокам"
+      },
+      "url": "https://www.rbc.ru/economics/24/11/2026/6b055535fbb1b312ac2d21bc"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ФИНАНСЫ",
+        "en": "FINANCE"
+      },
+      "source": {
+        "ru": "Ведомости",
+        "en": "Ведомости"
+      },
+      "title": {
+        "ru": "Предприниматели стали чаще брать кредиты на текущую работу бизнеса",
+        "en": "Предприниматели стали чаще брать кредиты на текущую работу бизнеса"
+      },
+      "url": "https://www.vedomosti.ru/finance/news/2026/11/24/1414695-brat-krediti"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ЭНЕРГЕТИКА",
+        "en": "ENERGY"
+      },
+      "source": {
+        "ru": "ТАСС",
+        "en": "ТАСС"
+      },
+      "title": {
+        "ru": "Зеленский назвал непростой ситуацию в энергетике в Днепропетровске и области",
+        "en": "Зеленский назвал непростой ситуацию в энергетике в Днепропетровске и области"
+      },
+      "url": "https://tass.ru/ekonomika/28349163"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ФИНАНСЫ",
+        "en": "FINANCE"
+      },
+      "source": {
+        "ru": "Банк России",
+        "en": "Банк России"
+      },
+      "title": {
+        "ru": "Инсайдерская информация Банка России",
+        "en": "Инсайдерская информация Банка России"
+      },
+      "url": "https://www.cbr.ru/analytics/insideinfo/"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "САНКЦИИ",
+        "en": "SANCTIONS"
+      },
+      "source": {
+        "ru": "BFM",
+        "en": "BFM"
+      },
+      "title": {
+        "ru": "Молдавия может присоединиться к секторальным санкциям против России",
+        "en": "Молдавия может присоединиться к секторальным санкциям против России"
+      },
+      "url": "https://www.bfm.ru/news/624832"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "ФИНАНСЫ",
+        "en": "FINANCE"
+      },
+      "source": {
+        "ru": "MarketWatch",
+        "en": "MarketWatch"
+      },
+      "title": {
+        "ru": "The bull and bear surprises that could ambush investors next year, according to Bank of America",
+        "en": "The bull and bear surprises that could ambush investors next year, according to Bank of America"
+      },
+      "url": "https://www.marketwatch.com/story/the-bull-and-bear-surprises-that-could-ambush-investors-next-year-according-to-bank-of-america-1cf7dc26?mod=mw_rss_topstories"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "НЕДВИЖИМОСТЬ",
+        "en": "REAL ESTATE"
+      },
+      "source": {
+        "ru": "ТАСС",
+        "en": "ТАСС"
+      },
+      "title": {
+        "ru": "В ЛНР остаются незарегистрированными более 1,2 млн прав на недвижимость",
+        "en": "В ЛНР остаются незарегистрированными более 1,2 млн прав на недвижимость"
+      },
+      "url": "https://tass.ru/nedvizhimost/28349065"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ГОСУПРАВЛЕНИЕ",
+        "en": "GOV"
+      },
+      "source": {
+        "ru": "Коммерсантъ",
+        "en": "Коммерсантъ"
+      },
+      "title": {
+        "ru": "Минцифры запустит сервис отправки уведомлений в «Максе» поднадзорным ФСИН",
+        "en": "Минцифры запустит сервис отправки уведомлений в «Максе» поднадзорным ФСИН"
+      },
+      "url": "https://www.kommersant.ru/doc/9128945"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ГАЗ",
+        "en": "GAS"
+      },
+      "source": {
+        "ru": "Российская газета",
+        "en": "Российская газета"
+      },
+      "title": {
+        "ru": "Норвежская Equinor подписала 18-летний контракт на поставки газа в Германию",
+        "en": "Норвежская Equinor подписала 18-летний контракт на поставки газа в Германию"
+      },
+      "url": "https://rg.ru/2026/11/24/norvezhskaia-equinor-podpisala-18-letnij-kontrakt-na-postavki-gaza-v-germaniiu.html"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ДИВИДЕНДЫ",
+        "en": "DIVIDENDS"
+      },
+      "source": {
+        "ru": "РИА Новости",
+        "en": "РИА Новости"
+      },
+      "title": {
+        "ru": "Украина должна выплатить МВФ более двух миллиардов долларов в 2027 году",
+        "en": "Украина должна выплатить МВФ более двух миллиардов долларов в 2027 году"
+      },
+      "url": "https://ria.ru/20261124/ukraina-2133593061.html"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ГОСУПРАВЛЕНИЕ",
+        "en": "GOV"
+      },
+      "source": {
+        "ru": "BFM",
+        "en": "BFM"
+      },
+      "title": {
+        "ru": "Politico: Мерц пригрозил заблокировать бюджет ЕС из-за отказа четырех стран кредитовать Киев",
+        "en": "Politico: Мерц пригрозил заблокировать бюджет ЕС из-за отказа четырех стран кредитовать Киев"
+      },
+      "url": "https://www.bfm.ru/news/624812"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ГОСУПРАВЛЕНИЕ",
+        "en": "GOV"
+      },
+      "source": {
+        "ru": "Лента.ру",
+        "en": "Лента.ру"
+      },
+      "title": {
+        "ru": "Чиновница вернула в бюджет России полсотни миллионов",
+        "en": "Чиновница вернула в бюджет России полсотни миллионов"
+      },
+      "url": "https://lenta.ru/news/2026/11/24/chinovnitsa-vernula-v-byudzhet-rossii-polsotni-millionov/"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "РЕГУЛИРОВАНИЕ",
+        "en": "REGULATION"
+      },
+      "source": {
+        "ru": "Коммерсантъ",
+        "en": "Коммерсантъ"
+      },
+      "title": {
+        "ru": "Верховный суд Дании признал законным выселение «незападных» арендаторов",
+        "en": "Верховный суд Дании признал законным выселение «незападных» арендаторов"
+      },
+      "url": "https://www.kommersant.ru/doc/9128938"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ГАЗ",
+        "en": "GAS"
+      },
+      "source": {
+        "ru": "Ведомости",
+        "en": "Ведомости"
+      },
+      "title": {
+        "ru": "Equinor заключила контракт на поставки газа в Германию до 2044 года",
+        "en": "Equinor заключила контракт на поставки газа в Германию до 2044 года"
+      },
+      "url": "https://www.vedomosti.ru/business/news/2026/11/24/1414694-equinor-zaklyuchila-kontrakt"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "РЫНКИ",
+        "en": "MARKETS"
+      },
+      "source": {
+        "ru": "CNBC",
+        "en": "CNBC"
+      },
+      "title": {
+        "ru": "Asian tech stocks recover from ‘collateral damage’ of Jensen Huang’s departure",
+        "en": "Asian tech stocks recover from ‘collateral damage’ of Jensen Huang’s departure"
+      },
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ГОСУПРАВЛЕНИЕ",
+        "en": "GOV"
+      },
+      "source": {
+        "ru": "Лента.ру",
+        "en": "Лента.ру"
+      },
+      "title": {
+        "ru": "В Минфине России заявили об адаптации бюджета к шокам",
+        "en": "В Минфине России заявили об адаптации бюджета к шокам"
+      },
+      "url": "https://lenta.ru/news/2026/11/24/zaversheno/"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "РЫНКИ",
+        "en": "MARKETS"
+      },
+      "source": {
+        "ru": "Seeking Alpha",
+        "en": "Seeking Alpha"
+      },
+      "title": {
+        "ru": "Agilent: 3 Growth Drivers Could Keep This Rally Going",
+        "en": "Agilent: 3 Growth Drivers Could Keep This Rally Going"
+      },
+      "url": "https://seekingalpha.com/article/4971350-agilent-three-growth-drivers-could-keep-this-rally-going?source=feed_all_articles"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ГАЗ",
+        "en": "GAS"
+      },
+      "source": {
+        "ru": "РИА Новости",
+        "en": "РИА Новости"
+      },
+      "title": {
+        "ru": "Норвежская Equinor договорилась о новых поставках газа в Германию",
+        "en": "Норвежская Equinor договорилась о новых поставках газа в Германию"
+      },
+      "url": "https://ria.ru/20261124/gaz-2133590367.html"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ЭНЕРГЕТИКА",
+        "en": "ENERGY"
+      },
+      "source": {
+        "ru": "Интерфакс",
+        "en": "Интерфакс"
+      },
+      "title": {
+        "ru": "Электроснабжение Крыма временно ограничат на 30% из-за противоаварийных работ",
+        "en": "Электроснабжение Крыма временно ограничат на 30% из-за противоаварийных работ"
+      },
+      "url": "https://www.interfax.ru/russia/1130990"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "КОРПОРАЦИИ",
+        "en": "CORPORATIONS"
+      },
+      "source": {
+        "ru": "Seeking Alpha",
+        "en": "Seeking Alpha"
+      },
+      "title": {
+        "ru": "Nvidia: Jensen Huang Is Back, My Buy Thesis Is Stronger",
+        "en": "Nvidia: Jensen Huang Is Back, My Buy Thesis Is Stronger"
+      },
+      "url": "https://seekingalpha.com/article/4971347-nvidia-jensen-huang-is-back-my-buy-thesis-is-stronger?source=feed_all_articles"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "КОРПОРАЦИИ",
+        "en": "CORPORATIONS"
+      },
+      "source": {
+        "ru": "РБК",
+        "en": "РБК"
+      },
+      "title": {
+        "ru": "Эксперты оценили «незаменимость» Хуанга для Nvidia",
+        "en": "Эксперты оценили «незаменимость» Хуанга для Nvidia"
+      },
+      "url": "https://www.rbc.ru/technology_and_media/24/11/2026/6b054cd9f649d8e6e8fb582b"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "АНАЛИТИКА",
+        "en": "ANALYTICS"
+      },
+      "source": {
+        "ru": "Seeking Alpha",
+        "en": "Seeking Alpha"
+      },
+      "title": {
+        "ru": "Monadelphous Group Limited (MOPHY) Shareholder/Analyst Call Transcript",
+        "en": "Monadelphous Group Limited (MOPHY) Shareholder/Analyst Call Transcript"
+      },
+      "url": "https://seekingalpha.com/article/4971286-monadelphous-group-limited-mophy-shareholder-analyst-call-transcript?source=feed_all_articles"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "НЕФТЬ",
+        "en": "OIL"
+      },
+      "source": {
+        "ru": "Интерфакс",
+        "en": "Интерфакс"
+      },
+      "title": {
+        "ru": "Багдад намерен взять под контроль нефтяные месторождения и границы Иракского Курдистана",
+        "en": "Багдад намерен взять под контроль нефтяные месторождения и границы Иракского Курдистана"
+      },
+      "url": "https://www.interfax.ru/business/1130988"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "ЗОЛОТО",
+        "en": "GOLD"
+      },
+      "source": {
+        "ru": "Seeking Alpha",
+        "en": "Seeking Alpha"
+      },
+      "title": {
+        "ru": "Gold's Role In An AI-Driven Economy: Direct And Indirect Effects",
+        "en": "Gold's Role In An AI-Driven Economy: Direct And Indirect Effects"
+      },
+      "url": "https://seekingalpha.com/article/4971355-gold-role-in-ai-driven-economy-direct-indirect-effects?source=feed_all_articles"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "МЕЖДУНАРОДКА",
+        "en": "INTERNATIONAL"
+      },
+      "source": {
+        "ru": "Ведомости",
+        "en": "Ведомости"
+      },
+      "title": {
+        "ru": "Верховный суд обязал суды учитывать конвенции ООН при делах об отмывании",
+        "en": "Верховный суд обязал суды учитывать конвенции ООН при делах об отмывании"
+      },
+      "url": "https://www.vedomosti.ru/society/news/2026/11/24/1414653-vs-rekomendoval-uchitivat-standarti-fatf"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "РЫНКИ",
+        "en": "MARKETS"
+      },
+      "source": {
+        "ru": "Smart-Lab",
+        "en": "Smart-Lab"
+      },
+      "title": {
+        "ru": "24 февраля 2022 года по минутам. Что я делал в самый страшный день для рынка.",
+        "en": "24 февраля 2022 года по минутам. Что я делал в самый страшный день для рынка."
+      },
+      "url": "https://smart-lab.ru/blog/1378802.php"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "КРИПТОВАЛЮТЫ",
+        "en": "CRYPTO"
+      },
+      "source": {
+        "ru": "Ведомости",
+        "en": "Ведомости"
+      },
+      "title": {
+        "ru": "Банк России дал разъяснения по USDT и переводам на криптокошельки",
+        "en": "Банк России дал разъяснения по USDT и переводам на криптокошельки"
+      },
+      "url": "https://www.vedomosti.ru/investments/news/2026/11/24/1414677-bank-dal-razyasneniya"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ЭНЕРГЕТИКА",
+        "en": "ENERGY"
+      },
+      "source": {
+        "ru": "Интерфакс",
+        "en": "Интерфакс"
+      },
+      "title": {
+        "ru": "В Белгороде из-за непогоды нарушено электроснабжение",
+        "en": "В Белгороде из-за непогоды нарушено электроснабжение"
+      },
+      "url": "https://www.interfax.ru/russia/1130986"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "МАКРО",
+        "en": "MACRO"
+      },
+      "source": {
+        "ru": "Smart-Lab",
+        "en": "Smart-Lab"
+      },
+      "title": {
+        "ru": "Инфляция у каждого своя (обновление за 2026 год)",
+        "en": "Инфляция у каждого своя (обновление за 2026 год)"
+      },
+      "url": "https://smart-lab.ru/blog/1378797.php"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "САНКЦИИ",
+        "en": "SANCTIONS"
+      },
+      "source": {
+        "ru": "РИА Новости",
+        "en": "РИА Новости"
+      },
+      "title": {
+        "ru": "Молдавия подготовит план присоединения к санкциям ЕС против России",
+        "en": "Молдавия подготовит план присоединения к санкциям ЕС против России"
+      },
+      "url": "https://ria.ru/20261124/moldavija-2133585888.html"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "ФИНАНСЫ",
+        "en": "FINANCE"
+      },
+      "source": {
+        "ru": "Лента.ру",
+        "en": "Лента.ру"
+      },
+      "title": {
+        "ru": "Одному сегменту российской экономики предсказали рекордную прибыль",
+        "en": "Одному сегменту российской экономики предсказали рекордную прибыль"
+      },
+      "url": "https://lenta.ru/news/2026/11/24/odnomu-segmentu-rossiyskoy-ekonomiki-predskazali-rekordnuyu-pribyl/"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "ru",
+      "tag": {
+        "ru": "РЕГУЛИРОВАНИЕ",
+        "en": "REGULATION"
+      },
+      "source": {
+        "ru": "РБК",
+        "en": "РБК"
+      },
+      "title": {
+        "ru": "Парламент Кабардино-Балкарии одобрил закон о запрете вейпов",
+        "en": "Парламент Кабардино-Балкарии одобрил закон о запрете вейпов"
+      },
+      "url": "https://www.rbc.ru/rbcfreenews/6b05510ffec5ac68a96b9f42"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "КОРПОРАЦИИ",
+        "en": "CORPORATIONS"
+      },
+      "source": {
+        "ru": "Bloomberg",
+        "en": "Bloomberg"
+      },
+      "title": {
+        "ru": "Xi Delays US Chip Retaliation After Trump Seals Nvidia U-Turn",
+        "en": "Xi Delays US Chip Retaliation After Trump Seals Nvidia U-Turn"
+      },
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/china-halts-critical-minerals-ban-to-maintain-truce-with-us"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "КОРПОРАЦИИ",
+        "en": "CORPORATIONS"
+      },
+      "source": {
+        "ru": "CNBC",
+        "en": "CNBC"
+      },
+      "title": {
+        "ru": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts",
+        "en": "Jensen Huang is ‘too big to fire,’ putting Nvidia’s governance in focus: analysts"
+      },
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-governance.html"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "РЫНКИ",
+        "en": "MARKETS"
+      },
+      "source": {
+        "ru": "Bloomberg",
+        "en": "Bloomberg"
+      },
+      "title": {
+        "ru": "Is Nvidia's Rally Overlooking Risks Around Jensen Huang's Return?",
+        "en": "Is Nvidia's Rally Overlooking Risks Around Jensen Huang's Return?"
+      },
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/insight-with-haslinda-amin-11-24-2026-video"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "ФОНДЫ",
+        "en": "FUNDS"
+      },
+      "source": {
+        "ru": "Bloomberg",
+        "en": "Bloomberg"
+      },
+      "title": {
+        "ru": "Hong Kong Hedge Fund Tax Breaks Offer Win for Pod Shop Stars",
+        "en": "Hong Kong Hedge Fund Tax Breaks Offer Win for Pod Shop Stars"
+      },
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/hong-kong-s-hedge-fund-tax-breaks-offer-boon-for-pod-shop-stars"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "ОБЛИГАЦИИ",
+        "en": "BONDS"
+      },
+      "source": {
+        "ru": "Bloomberg",
+        "en": "Bloomberg"
+      },
+      "title": {
+        "ru": "Japan’s Top Life Insurers Book $7.5 Billion in Bond Sale Losses",
+        "en": "Japan’s Top Life Insurers Book $7.5 Billion in Bond Sale Losses"
+      },
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/japan-s-top-life-insurers-book-7-5-billion-in-bond-sale-losses"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "IPO",
+        "en": "IPO"
+      },
+      "source": {
+        "ru": "Bloomberg",
+        "en": "Bloomberg"
+      },
+      "title": {
+        "ru": "Dangote Clears Key Hurdle Toward Africa’s Biggest Listing",
+        "en": "Dangote Clears Key Hurdle Toward Africa’s Biggest Listing"
+      },
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/dangote-clears-key-hurdle-toward-africa-s-biggest-listing"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "РЫНКИ",
+        "en": "MARKETS"
+      },
+      "source": {
+        "ru": "Investing.com",
+        "en": "Investing.com"
+      },
+      "title": {
+        "ru": "U.S. stock futures slip after Nvidia-led Wall Street rally",
+        "en": "U.S. stock futures slip after Nvidia-led Wall Street rally"
+      },
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-nvidialed-wall-street-rally-5046750"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "КОРПОРАЦИИ",
+        "en": "CORPORATIONS"
+      },
+      "source": {
+        "ru": "CNBC",
+        "en": "CNBC"
+      },
+      "title": {
+        "ru": "Six key questions raised by Jensen Huang's return to Nvidia",
+        "en": "Six key questions raised by Jensen Huang's return to Nvidia"
+      },
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html"
+    },
+    {
+      "date": {
+        "ru": "24.11",
+        "en": "Nov 24"
+      },
+      "region": "world",
+      "tag": {
+        "ru": "РЫНКИ",
+        "en": "MARKETS"
+      },
+      "source": {
+        "ru": "Investing.com",
+        "en": "Investing.com"
+      },
+      "title": {
+        "ru": "Aurubis shares fall 10% on Richmond plant delays",
+        "en": "Aurubis shares fall 10% on Richmond plant delays"
+      },
+      "url": "https://www.investing.com/news/stock-market-news/aurubis-shares-fall-10-on-richmond-plant-delays-93CH-5047475"
+    }
+  ]
+}

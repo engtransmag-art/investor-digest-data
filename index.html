@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Дайджест · данные</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 32px 20px 64px; background: #0f1115; color: #e8eaf0; font: 16px/1.5 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  .muted { color: #8b93a7; font-size: 14px; }
+  .status { margin: 16px 0 24px; padding: 12px 14px; border: 1px solid #242a38; border-radius: 10px; background: #151924; font-size: 14px; }
+  .bad { color: #ff8f8f; }
+  ol { padding: 0; margin: 0; list-style: none; counter-reset: item; }
+  li { counter-increment: item; display: grid; grid-template-columns: 34px 1fr; gap: 8px; padding: 14px 0; border-bottom: 1px solid #1c2130; }
+  li::before { content: counter(item); color: #55607a; font-variant-numeric: tabular-nums; padding-top: 2px; }
+  a { color: #e8eaf0; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px; font-size: 12px; color: #8b93a7; margin-bottom: 4px; }
+  .tag { color: #7fd1a8; }
+  .src { color: #8b93a7; }
+  .region { color: #b39ddb; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Дайджест: данные</h1>
+  <div class="muted">Служебная страница для проверки деплоя. Лента для сайта — в блоке T123.</div>
+  <div class="status" id="status">Загружаю…</div>
+  <ol id="list"></ol>
+</div>
+<script>
+(async () => {
+  const bust = Math.floor(Date.now() / 300000);
+  const status = document.getElementById('status');
+  const list = document.getElementById('list');
+  try {
+    const [news, report] = await Promise.all([
+      fetch(`news.json?v=${bust}`, { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }),
+      fetch(`news-report.json?v=${bust}`, { cache: 'no-store' }).then((r) => r.ok ? r.json() : null).catch(() => null)
+    ]);
+    const when = new Date(news.updated).toLocaleString('ru-RU', { timeZone: 'Europe/Moscow', dateStyle: 'short', timeStyle: 'short' });
+    status.innerHTML = `Обновлено ${when} МСК · карточек ${news.news.length}` +
+      (report ? ` · источников ${report.stats.sourcesOk}/${report.stats.sources}` : '');
+    if (report && report.stats.sourcesOk < report.stats.sources) {
+      const dead = report.sources.filter((s) => !s.ok).map((s) => s.id).join(', ');
+      status.innerHTML += `<div class="bad">Не ответили: ${dead}</div>`;
+    }
+    list.innerHTML = news.news.map((n) => `
+      <li>
+        <div>
+          <div class="meta">
+            <span>${n.date.ru}</span>
+            <span class="tag">${n.tag.ru}</span>
+            <span class="src">${n.source.ru}</span>
+            <span class="region">${n.region === 'ru' ? 'РФ' : 'мир'}</span>
+          </div>
+          <a href="${n.url}" target="_blank" rel="noopener">${n.title.ru}</a>
+        </div>
+      </li>`).join('');
+  } catch (err) {
+    status.innerHTML = `<span class="bad">Не удалось прочитать news.json: ${err.message}</span>`;
+  }
+})();
+</script>
+</body>
+</html>
