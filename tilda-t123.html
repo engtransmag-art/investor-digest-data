@@ -1,0 +1,122 @@
+<!--
+  Tilda, блок T123 «HTML-код».
+  Замените data-src на URL вашего news.json (см. README, раздел «Вставка в T123»).
+  data-lang: ru | en — определяет, какие поля из news.json показывать.
+  data-limit: сколько карточек выводить.
+-->
+<div class="lp-digest" data-src="https://USER.github.io/REPO/news.json" data-lang="ru" data-limit="60">
+  <div class="lp-digest__bar">
+    <div class="lp-digest__title">Инвест-дайджест</div>
+    <div class="lp-digest__status">Загрузка…</div>
+  </div>
+  <div class="lp-digest__grid"></div>
+</div>
+
+<style>
+  .lp-digest { --lp-fg: #111; --lp-muted: #6b7280; --lp-line: #e5e7eb; --lp-accent: #0f766e; }
+  .lp-digest, .lp-digest * { box-sizing: border-box; }
+  .lp-digest { font-family: inherit; color: var(--lp-fg); }
+  .lp-digest__bar { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; margin: 0 0 20px; padding-bottom: 12px; border-bottom: 2px solid var(--lp-fg); }
+  .lp-digest__title { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; }
+  .lp-digest__status { font-size: 12px; color: var(--lp-muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  .lp-digest__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .lp-digest__card { display: flex; flex-direction: column; gap: 10px; padding: 18px 18px 20px; border: 1px solid var(--lp-line); border-radius: 14px; background: #fff; text-decoration: none; color: inherit; transition: border-color .15s ease, transform .15s ease; }
+  .lp-digest__card:hover { border-color: var(--lp-fg); transform: translateY(-2px); }
+  .lp-digest__meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--lp-muted); }
+  .lp-digest__tag { padding: 2px 8px; border-radius: 999px; background: #f0fdfa; color: var(--lp-accent); font-weight: 600; }
+  .lp-digest__headline { font-size: 16px; line-height: 1.35; font-weight: 600; }
+  .lp-digest__empty, .lp-digest__error { grid-column: 1 / -1; padding: 24px; border: 1px dashed var(--lp-line); border-radius: 14px; color: var(--lp-muted); font-size: 14px; }
+  @media (max-width: 720px) {
+    .lp-digest__grid { grid-template-columns: 1fr; }
+    .lp-digest__title { font-size: 18px; }
+  }
+</style>
+
+<script>
+(function () {
+  'use strict';
+
+  var CACHE_KEY = 'lp_digest_v27';
+  var BUST_MS = 5 * 60 * 1000; // 5 минут: обновляем свежие данные, но не дергаем CDN каждый заход
+
+  function pick(obj, lang) {
+    return (obj && (obj[lang] || obj.ru || obj.en)) || '';
+  }
+
+  function cardHtml(item, lang) {
+    var date = pick(item.date, lang);
+    var tag = pick(item.tag, lang);
+    var source = pick(item.source, lang);
+    var title = pick(item.title, lang);
+    var region = item.region === 'ru' ? 'РФ' : 'мир';
+    return '<a class="lp-digest__card" href="' + (item.url || '#') + '" target="_blank" rel="noopener noreferrer">' +
+      '<span class="lp-digest__meta"><span>' + date + '</span>' +
+      '<span class="lp-digest__tag">' + tag + '</span>' +
+      '<span>' + region + '</span><span>' + source + '</span></span>' +
+      '<span class="lp-digest__headline">' + title + '</span></a>';
+  }
+
+  function render(root, data, report) {
+    var lang = root.getAttribute('data-lang') || 'ru';
+    var limit = parseInt(root.getAttribute('data-limit'), 10) || 60;
+    var grid = root.querySelector('.lp-digest__grid');
+    var status = root.querySelector('.lp-digest__status');
+    var items = (data.news || []).slice(0, limit);
+
+    grid.innerHTML = items.length
+      ? items.map(function (item) { return cardHtml(item, lang); }).join('')
+      : '<div class="lp-digest__empty">Пока нет материалов.</div>';
+
+    var updated = data.updated ? new Date(data.updated) : null;
+    var when = updated && !isNaN(updated) ? updated.toLocaleDateString('ru-RU', { day: '2-digit', month: '2-digit' }) : '';
+    var sources = report && report.stats ? ' · источников ' + report.stats.sourcesOk + '/' + report.stats.sources : '';
+    status.textContent = (when ? 'обновлено ' + when : 'обновлено') + sources;
+  }
+
+  function fail(root, message) {
+    var grid = root.querySelector('.lp-digest__grid');
+    var status = root.querySelector('.lp-digest__status');
+    status.textContent = 'данные недоступны';
+    grid.innerHTML = '<div class="lp-digest__error">' + message + '</div>';
+  }
+
+  function load(root) {
+    var src = root.getAttribute('data-src');
+    if (!src) return;
+
+    var cached = null;
+    try { cached = JSON.parse(localStorage.getItem(CACHE_KEY) || 'null'); } catch (e) { cached = null; }
+    if (cached && cached.data && cached.data.news) render(root, cached.data, cached.report);
+
+    var url = src + (src.indexOf('?') === -1 ? '?' : '&') + 'v=' + Math.floor(Date.now() / BUST_MS);
+    var reportUrl = src.replace(/news\.json(\?.*)?$/, 'news-report.json');
+
+    var newsRequest = fetch(url, { cache: 'no-store' }).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    });
+    var reportRequest = fetch(reportUrl, { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .catch(function () { return null; });
+
+    Promise.all([newsRequest, reportRequest]).then(function (result) {
+      render(root, result[0], result[1]);
+      try { localStorage.setItem(CACHE_KEY, JSON.stringify({ data: result[0], report: result[1] })); } catch (e) {}
+    }).catch(function (err) {
+      if (cached) return; // показываем прошлый снимок из кеша
+      fail(root, 'Не удалось загрузить ленту (' + err.message + '). Проверьте, что news.json опубликован и доступен по HTTPS.');
+    });
+  }
+
+  function init() {
+    var nodes = document.querySelectorAll('.lp-digest[data-src]:not([data-ready])');
+    for (var i = 0; i < nodes.length; i += 1) {
+      nodes[i].setAttribute('data-ready', '1');
+      load(nodes[i]);
+    }
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>
