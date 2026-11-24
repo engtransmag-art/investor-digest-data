@@ -1,0 +1,70 @@
+name: News digest
+
+# Расписание: каждый день в 09:30 МСК (06:30 UTC).
+# GitHub может задержать запуск на 10–40 минут — это нормально для cron в Actions.
+on:
+  schedule:
+    - cron: '30 6 * * *'
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Окно свежести, дней'
+        default: '14'
+        required: false
+      max:
+        description: 'Сколько карточек в ленте'
+        default: '60'
+        required: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Тесты парсера (без сети)
+        run: node scripts/test-parser.mjs
+
+      - name: Собрать дайджест
+        run: node scripts/news-agent.mjs
+        env:
+          FRESH_DAYS: ${{ inputs.days || '14' }}
+          MAX_ITEMS: ${{ inputs.max || '60' }}
+          # Необязательно: Settings → Secrets and variables → Actions → TRANSLATE_API_KEY
+          TRANSLATE_API_KEY: ${{ secrets.TRANSLATE_API_KEY }}
+
+      - name: Сводка прогона
+        if: always()
+        run: node scripts/report-summary.mjs >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
